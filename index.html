@@ -9,7 +9,7 @@
 			src: url('digital-7_mono.ttf') format("truetype");
 		}
 	</style>
-	<link href="css/default.css" type="text/css" rel="stylesheet">
+	<link href="css/default_dev.css" type="text/css" rel="stylesheet">
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/garden.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
@@ -19,49 +19,54 @@
 	<div id="mainDiv">
 		<div id="content">
 			<div id="code">
-				<span class="comments">/**</span><br />
-				<span class="space"/><span class="comments">* We are both Fudan SSers and programmers,</span><br />
-				<span class="space"/><span class="comments">* so I write some code to celebrate our 1st anniversary.</span><br />
-				<span class="space"/><span class="comments">*/</span><br />
-				Boy i = <span class="keyword">new</span> Boy(<span class="string">"hackerzhou"</span>);<br />
-				Girl u = <span class="keyword">new</span> Girl(<span class="string">"MaryNee"</span>);<br />
-				<span class="comments">// Nov 2, 2010, I told you I love you. </span><br />
-				i.love(u);<br />
-				<span class="comments">// Luckily, you accepted and became my girlfriend eversince.</span><br />
-				u.accepted();<br />
-				<span class="comments">// Since then, I miss u every day.</span><br />
-				i.miss(u);<br />
-				<span class="comments">// And take care of u and our love.</span><br />
-				i.takeCareOf(u);<br />
-				<span class="comments">// You say that you won't be so easy to marry me.</span><br />
-				<span class="comments">// So I keep waiting and I have confidence that you will.</span><br />
-				<span class="keyword">boolean</span> isHesitate = <span class="keyword">true</span>;<br />
-				<span class="keyword">while</span> (isHesitate) {<br />
-				<span class="placeholder"/>i.waitFor(u);<br />
-				<span class="placeholder"/><span class="comments">// I think it is an important decision</span><br />
-				<span class="placeholder"/><span class="comments">// and you should think it over.</span><br />
-				<span class="placeholder"/>isHesitate = u.thinkOver();<br />
-				}<br />
-				<span class="comments">// After a romantic wedding, we will live happily ever after.</span><br />
-				i.marry(u);<br />
-				i.liveHappilyWith(u);<br />
+				<span class="keyword">def</span> <span class="value">main</span>():</span><br />
+				<span class="placeholder"/><span class="comments">'''</span><br />
+				<span class="placeholder"/><span class="comments">Today is our 1st anniversary,but I have less skill of js,</span><br />
+				<span class="placeholder"/><span class="comments">So I copy the site to write some code for our love story.</span><br />
+				<span class="placeholder"/><span class="comments">'''</span><br />
+				<span class="placeholder"/>I = boy(<span class="string">'Xiao'</span>)<br />
+				<span class="placeholder"/><span class="u">u</span> = girl(<span class="string">'Li'</span>)<br />
+				<span class="placeholder"/><span class="comments"># Summer of 2003,I know about you.</span><br />
+				<span class="placeholder"/>I.know(<span class="u">u</span>)<br />
+				<span class="placeholder"/><span class="comments"># Sep 14, 2012,I meet you again in my college.</span><br />
+				<span class="placeholder"/>I.meet(<span class="u">u</span>)<br />
+				<span class="placeholder"/><span class="comments"># The half of the year we conquer the hardships together.</span><br />
+				<span class="placeholder"/>I.together(<span class="u">u</span>)<br />
+				<span class="placeholder"/><span class="comments"># I really feel bad when you leave me</span><br />
+				<span class="placeholder"/>I.mood = shit<br />
+				<span class="placeholder"/><span class="comments"># I  make sure that you are the right one</span><br />
+				<span class="placeholder"/>I.Lover = <span class="u">u</span><br />
+				<span class="placeholder"/><span class="comments"># Aug 13,2013,I date you,we have a dinner.</span><br />
+				<span class="placeholder"/>I.date(u)<br />
+				<span class="placeholder"/><span class="comments"># Sep 19,2013,the mid-autumn festival,</span><br />
+				<span class="placeholder"/><span class="comments"># I clearly remember the night and the moon.</span><br />
+				<span class="placeholder"/><span class="comments"># What a wonderful night.</span><br />
+				<span class="placeholder"/>I.kiss(<span class="u">u</span>)<br />
+				<span class="placeholder"/><span class="comments"># I think you are the right one without doubt.</span><br />
+				<span class="placeholder"/><span class="u">u</span>.Lover = I<br />
+				 <span class="placeholder"/><span class="comments"># I love you.</span><br />
+				 <span class="placeholder"/><span class="keyword">while</span> <span class="value">True</span>:<br />
+				 <span class="placeholder"/><span class="placeholder"/>I.Love += <span class="number"/>1</span><br />
+				 <br />
+				 <span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>:<br />
+				 <span class="placeholder"/>main()
+
 			</div>
 			<div id="loveHeart">
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						Minyue, I have fallen in love with you for
+						Li, I have fallen in love with you for
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
-						Love u forever and ever.<br/>
-						<div class="signature">- hackerzhou</div>
+						I LOVE YOU.<br/>
+						<div class="signature">- Xuxiao</div>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div id="copyright">
-			Inspired by <a href="http://www.openrise.com/lab/FlowerPower/">FlowerPower</a> project.<br />
 			Copyright © 2011 <a href='http://hackerzhou.me'>hackerzhou.me</a> 2009-2011
 		</div>
 	</div>
